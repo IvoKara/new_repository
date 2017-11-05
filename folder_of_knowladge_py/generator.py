@@ -1,3 +1,12 @@
+
+# not indexing, yield
+
+gen = (i for i in range(10))
+print(gen)
+for sth in gen:
+    print(sth)
+#print(gen[1])    
+
 import sys
 import random
 import time
