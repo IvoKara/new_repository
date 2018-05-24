@@ -1,2 +1,2 @@
-def baseConversion(n, x):
-    return hex(int(n, base=x))[2:]
+def baseConversion(number, xbase):
+    return hex(int(number, base=xbase))[2:]
